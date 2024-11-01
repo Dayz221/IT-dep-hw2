@@ -25,7 +25,7 @@ type Rect struct {
 
 func (rect Rect) GetArea() (float64, error) {
 	if rect.Width < 0 || rect.Height < 0 {
-		return 0, errors.New("радиус круга не может быть меньше 0")
+		return 0, errors.New("Ширина и высота не могут быть меньше 0")
 	}
 	return rect.Width * rect.Height, nil
 }
