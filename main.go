@@ -3,9 +3,11 @@ package main
 import (
 	"fmt"
 	"os"
-	"proj/myshapes"
 	"strconv"
 	"strings"
+
+	"github.com/Dayz221/IT-dep-hw2/calculator"
+	"github.com/Dayz221/IT-dep-hw2/myshapes"
 )
 
 func ReadFile(name string) (string, error) {
